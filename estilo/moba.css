@@ -108,6 +108,7 @@ main h1{
 main h2{
     font-family: var(--fonte-android);
     color:var(--cor4);
+    text-align: center;
     font-size: 1.3em;
     font-weight: normal;
     background-image: linear-gradient(to right, var(--cor0),transparent);
@@ -144,7 +145,8 @@ main a:hover{
 }
 
 main img.pequena{
-    max-width: 400px;
+    width: 100%;
+    border-radius: 5px;
     display: block;
     margin: auto;
 }

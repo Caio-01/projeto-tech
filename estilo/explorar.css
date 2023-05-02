@@ -124,6 +124,7 @@ main h4{
     font-size: 1.2em;
     font-family: var(--fonte-destaque);
     margin-top: 1.2em;
+    margin-bottom: 1em;
 }
 
 footer{

@@ -110,11 +110,14 @@ main p{
     font-family: var(--fonte-padrao);
     font-size: 1.2em;
     line-height: 1.3em;
+    margin-bottom: 1em;
 }
 
 main img{
-    margin-top: 1em;
     width: 100%;
+    max-width: 700px;
+    display: block;
+    margin: auto;
     border-radius: 5px;
 }
 

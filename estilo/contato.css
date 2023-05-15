@@ -121,7 +121,7 @@ main h4{
     
 }
 
-main a > img{
+main img{
     max-width: 100px;
     border-radius: 50%;
     display: block;
@@ -137,4 +137,14 @@ main a > img{
     50%{
         transform: translateY(-10px);
     }
+}
+
+main a{
+    text-decoration: none;
+    color: var(--cor5);
+}
+
+main a:hover{
+    text-decoration: underline;
+    color: var(--cor3);
 }

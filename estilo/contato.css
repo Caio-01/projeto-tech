@@ -110,6 +110,7 @@ main p{
     font-family: var(--fonte-padrao);
     font-size: 1.2em;
     line-height: 1.3em;
+    margin-bottom: 1.5em;
 }
 
 main h4{
@@ -117,34 +118,24 @@ main h4{
     text-align: center;
     font-size: 1.2em;
     font-family: var(--fonte-destaque);
-    margin-top: 12px;
+    
     
 }
 
 main img{
     max-width: 100px;
-    border-radius: 50%;
-    display: block;
-    margin: auto;
-    margin-top: 2em;
-    animation: float 2s ease-in-out infinite;
-}   
-
-@keyframes float{
-    0%, 100%{
-        transform: translateY(0);
-    }
-    50%{
-        transform: translateY(-10px);
-    }
+    border-radius: 50%; 
+    transition: 1s;
+    transform: translateX(0);
+    cursor: grab;
+}  
+main img:hover{
+    transform: translateY(-1rem);
 }
 
 main a{
-    text-decoration: underline;
-    color: var(--cor5);
-}
-
-main a:hover{
-    text-decoration: underline;
-    color: var(--cor3);
+    display: table;
+    width: 30px;
+    margin: auto;
+    height: 30px;
 }
